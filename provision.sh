@@ -9,3 +9,5 @@ apt-get install -y \
  vim >/dev/null 2>&1
 #rm -rf /var/www
 #ln -fs /vagrant /var/www
+echo "Setting up development environment..."
+ln -s /vagrant/react /home/vagrant
