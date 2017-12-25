@@ -14,6 +14,8 @@ apt-get install -y nodejs >/dev/null 2>&1
 echo "Installing javascript stuffs and setting it up..."
 # yarn
 curl -o- -L https://yarnpkg.com/install.sh | bash
+# cross-env
+npm install cross-env -g
 
 # apt-get install -y nodejs npm >/dev/null 2>&1
 # apt-get install -y yarn nodejs npm >/dev/null 2>&1
